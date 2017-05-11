@@ -27,9 +27,13 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.1.0'
     testCompile 'junit:junit:4.12'
     compile files('libs/volley.jar')
+    compile 'org.litepal.android:core:1.4.1'
+    //数据库操作
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    //用于进行网络请求
+    compile 'com.google.code.gson:gson:2.7'
+    //用于解析JSON数据
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    //用于加载和显示图片
 
-    compile 'org.litepal.android:core:1.4.1' //数据库操作
-    compile 'com.squareup.okhttp3:okhttp:3.4.1' //用于进行网络请求
-    compile 'com.google.code.gson:gson:2.7' //用于解析JSON数据
-    compile 'com.github.bumptech.glide:glide:3.7.0' //用于加载和显示图片
 }
